@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The broader Integration Platform as a Service (iPaaS) and Event-Driven Architecture (EDA) market is estimated between **$15B and $20B+**, growing rapidly as real-time event streaming and automation become enterprise standards. The overall space is **moderately concentrated** at the enterprise middleware and event bus tier—anchored by cloud hyperscalers and major automation leaders—while the specialized outbound webhook delivery and developer gateway niche remains **fragmented**, with nimble startups and open-source projects innovating rapidly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Svix](https://www.svix.com/)**
-
-  **Webhooks-as-a-service platform** with the open-source Svix server at its core, plus enterprise features like user portals, observability, and SLA-backed support. **Pricing**: Free tier for small volumes; paid plans scale by events. **Free tier**: Yes, limited events. **Best for**: developers wanting webhook infrastructure without operating it themselves—**note**: the core server is open source and self-hostable, making this a rare "open-core" option in this space .
-
-
-
-- **[Hookdeck](https://hookdeck.com/)**
-
-  **Event gateway and webhook infrastructure** with a managed platform and the open-source **Outpost** project for outbound event destinations. Provides retries, observability, and a user portal for managing destinations. **Pricing**: Free tier; paid plans by event volume. **Free tier**: Yes. **Best for**: teams wanting managed webhook reliability with the option to self-host Outpost for data sovereignty .
-
-
-
-- **[Zapier](https://zapier.com/)**
-
-  **No-code automation platform** with 7,000+ app integrations and webhook triggers/actions. **Pricing**: Free tier with 100 tasks/month; paid by task volume. **Free tier**: Yes. **Best for**: non-technical teams wanting to connect apps without building webhook infrastructure—**note**: Zapier is an integration platform, not webhook delivery infrastructure.
-
-
-
-- **[Make](https://www.make.com/)**
-
-  **Visual automation platform** with webhook support and 1,000+ app connectors. **Pricing**: Free tier with 1,000 operations/month; paid by operations. **Free tier**: Yes. **Best for**: power users wanting visual flows with webhook triggers.
-
-
-
-- **[Webhook.site](https://webhook.site/)**
-
-  **Webhook testing and debugging tool** with unique URLs for inspecting incoming requests. **Pricing**: Free tier; paid for extended retention and features. **Free tier**: Yes, limited. **Best for**: developers needing a quick way to inspect and debug webhook payloads—**note**: self-hosted alternatives exist (see **webhook-tester**).
-
-
-
-- **[Segment](https://segment.com/)**
-
-  **Customer data platform** that routes events to destinations via webhooks and native integrations. **Pricing**: Tiered by monthly tracked users. **Free tier**: Limited. **Best for**: teams wanting to collect and route customer events to multiple destinations—**not** a webhook delivery platform.
-
-
-
-- **[Pipedream](https://pipedream.com/)**
-
-  **Developer-first automation platform** with webhook triggers, code steps, and event sources. **Pricing**: Free tier with credits; paid by usage. **Free tier**: Yes. **Best for**: developers wanting code-level control over webhook workflows.
-
-
-
-- **[Amazon EventBridge](https://aws.amazon.com/eventbridge/)**
-
-  **Serverless event bus** for routing events between AWS services and SaaS applications. **Pricing**: Pay-per-event. **Free tier**: Limited free events. **Best for**: AWS-centric teams wanting event routing at scale—**not** a webhook delivery service, but an event bus that can target webhooks via API Destinations.
-
-
-
-- **[Tray.io](https://tray.io/)**
-
-  **Enterprise automation platform** with webhook triggers and complex workflow logic. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting low-code automation with webhook support.
-
-
-
-- **[HubSpot Webhooks](https://developers.hubspot.com/)**
-
-  **Native webhook subscriptions** for HubSpot CRM events (contact created, deal updated, etc.). **Pricing**: Included with HubSpot; rate limits apply. **Free tier**: Limited on free CRM. **Best for**: HubSpot users wanting to react to CRM changes—**not** a general webhook delivery platform.
-
-
+| Company / Product | Category & Best For | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Scale (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon EventBridge](https://aws.amazon.com/eventbridge/)** | **Serverless event bus** for routing events between AWS services & SaaS apps. Best for AWS-centric scalable event routing. | **$1.00 / million custom events** (billed in 64 KB increments); $0.20 / million API Destination invocations | **Permanently Free**: Unlimited AWS service management events + 14M invocations/mo for EventBridge Scheduler + 5M ingested events/mo for Schema Discovery | **Parent Market Cap: ~$2.2T** (Amazon / AWS; AWS ARR >$105B) |
+| **[HubSpot Webhooks](https://developers.hubspot.com/)** | **Native webhook subscriptions** for CRM events (contact created, deal updated). Best for reacting to CRM state changes. | **$0 / month** (included with Free CRM & Developer Portal); paid Hubs start at **$15/seat/month** | **Free Forever Plan**: 100 requests per 10 seconds burst limit, capped at 250,000 API requests/day | **Market Cap: ~$12B–$13.5B** (NYSE: HUBS; Revenue: ~$3.1B ARR) |
+| **[Make](https://www.make.com/)** | **Visual automation platform** with 3,000+ app connectors. Best for visual flows and multi-step webhook triggers. | **$9 / month** billed annually ($10.59/mo monthly) for Core Plan (10,000 credits/mo) | **Free Forever Plan**: 1,000 operations/credits per month, 2 active scenarios, 15-minute minimum run interval | **Parent Valuation: ~$13B** (Celonis; Make subsidiary ARR estimated >$50M) |
+| **[Zapier](https://zapier.com/)** | **No-code automation platform** with 7,000+ app integrations. Best for connecting apps without managing webhook infrastructure. | **$19.99 / month** billed annually ($29.99/mo monthly) for Professional Plan (750 tasks/mo) | **Free Forever Plan**: 100 tasks/month, 2-step single-trigger Zaps only, 15-minute polling interval | **Valuation: ~$5.0B** (Bootstrapped / secondary sale; Revenue: ~$310M ARR) |
+| **[Segment](https://segment.com/)** | **Customer data platform (CDP)** routing events via webhooks & destinations. Best for collecting & syncing user event streams. | **$120 / month** for Team Plan (up to 10,000 Monthly Tracked Users) | **Free Forever Plan**: 1,000 Monthly Tracked Users (MTUs), 2 data sources, 1 data warehouse destination (daily sync) | **Acquisition Valuation: $3.2B** (Acquired by Twilio; Unit ARR >$150M) |
+| **[Tray.io](https://tray.io/)** | **Enterprise automation platform** with advanced webhook triggers. Best for enterprise-grade low-code workflows. | **~$500–$700 / month** starting for Pro Plan (sales-led; median enterprise contract ~$37,600/year) | **14-day Free Trial** (or custom PoC) with starter task credit allotment; no permanent free tier | **Valuation: ~$600M** (Total venture funding: ~$160M) |
+| **[Pipedream](https://pipedream.com/)** | **Developer-first automation platform** with code steps & webhook triggers. Best for code-level control over event workflows. | **$29 / month** for Basic Plan ($49/mo for Advanced) | **Free Forever Plan**: 100 credits/month (strict daily ceilings), 3 active workflows, 3 connected accounts, 300s execution limit | **Valuation: ~$70M–$100M est.** (Series A; Total funding: ~$22.4M; ARR: ~$5M) |
+| **[Svix](https://www.svix.com/)** | **Webhooks-as-a-service platform** (managed cloud for open-source Svix). Best for turnkey outbound webhook infrastructure. | **$490 / month** for Pro Plan (includes 30-day trial and 50,000 messages/mo + $0.0008/msg) | **Free Forever Plan**: 50,000 messages/month, 50 messages/second rate limit, 99.9% uptime SLA | **Valuation: ~$40M–$60M est.** (Series A; Total funding: ~$13.1M; ARR: ~$1M–$5M) |
+| **[Hookdeck](https://hookdeck.com/)** | **Event gateway & webhook infrastructure** (managed platform & Outpost). Best for reliable inbound/outbound event delivery. | **$39 / month** for Team Gateway Plan; Outpost outbound plans start at **$10 per million events** | **Free Forever Plan**: 10,000 events/requests per month, 3-day log retention, 5 events/second throughput | **Valuation: ~$15M–$25M est.** (Seed; Total funding: ~$3M; ARR: ~$1M est.) |
+| **[Webhook.site](https://webhook.site/)** | **Webhook testing & debugging tool** with unique inspection endpoints. Best for inspecting payloads and testing integrations. | **$9 / month** ($90/year) for Basic Plan ($19/mo for Pro) | **Free Forever Plan**: 50 requests per instant URL, 50 requests history, URLs expire after 7 days | **Revenue: ~$400k ARR** (Bootstrapped / Micro-SaaS; traffic >700M reqs/day) |
 
 ## Open-Source GitHub Projects
 
