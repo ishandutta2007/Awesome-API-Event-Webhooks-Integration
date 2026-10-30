@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5855F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Event-Webhooks-Integration?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Event-Webhooks-Integration?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Event-Webhooks-Integration?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-API-Event-Webhooks-Integration?color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
@@ -77,7 +77,7 @@ The industry demonstrates a bifurcated structure: the enterprise event bus, clou
 
 ## 🛠️ Open-Source GitHub Projects
 
-Sorted by GitHub Stars (descending):
+Sorted by GitHub_Stars (descending):
 
 1. ### 📦 [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) [![Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
    - **Description:** Open-source developer-first background jobs, durable workflows, and event-driven automation framework.
@@ -161,7 +161,7 @@ Contributions are warmly welcomed! Help keep this directory accurate, up-to-date
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-webhook-tool`).
 3. 📝 **Add your project** in the appropriate section maintaining the existing format:
    - Name and direct project link
-   - Badge with social star count (`https://img.shields.io/github/stars/owner/repo?style=social&color=white`) linking to its stargazers page
+   - Badge with social Stars_Count (`https://img.shields.io/github/stars/owner/repo?style=social&color=white`) linking to its stargazers page
    - Concise factual description, key features, tech stack, and primary use case
 4. 🧪 **Ensure links and formatting are valid**.
 5. 🚀 **Submit a Pull Request** with a brief summary of what you added!
