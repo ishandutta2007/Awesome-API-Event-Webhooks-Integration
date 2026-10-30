@@ -1,48 +1,64 @@
-# Awesome-API-Event-Webhooks-Integration
+<div align="center">
 
-# Awesome-API-Event-Webhooks-Integration
+<img src="./assets/banner.svg" alt="Awesome API Event Webhooks Integration Banner" width="100%" />
 
-**Top API Event Webhooks Integration (Opensource) 🌟 Star if you like it! 🌟**
+# ⚡ Awesome API Event Webhooks & Integration
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5855F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Event-Webhooks-Integration?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Event-Webhooks-Integration?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-API-Event-Webhooks-Integration?color=red" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Event-Webhooks-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>Curated directory of Outbound Webhook Infrastructure, Event Destinations, Webhook Gateways, Testing Suites &amp; Event-Driven Architecture (EDA) Integrations.</strong>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  🌟 <em>Star this repository if you find it helpful!</em> 🌟
+</p>
 
-*Focused on Outbound Webhook Infrastructure, Event Destinations, Webhook Testing & Event-Driven Integration*
+</div>
 
-**Last updated: October 2026**
+---
 
+## 📌 Overview
 
+This repository tracks top-tier **SaaS platforms** and **open-source GitHub projects** in the **API Event Webhook & Event-Driven Integration** landscape. Whether you are seeking enterprise webhook delivery with HMAC signatures, exponential backoff retries, and customer-facing destination portals, or self-hosted cloud-native gateways for Kubernetes and serverless microservices, this guide provides actionable comparisons and clear distinctions between webhook delivery engines, testing suites, and iPaaS automation platforms.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **API Event Webhooks & Integration**. These tools enable developers to emit events from their applications, deliver webhooks reliably with retries and signing, route events to multiple destinations, and debug incoming webhooks—from fully managed webhook infrastructure with user portals and observability to self-hosted gateways and event destination platforms that give teams complete control over their event delivery pipelines.
+### 🔍 Key Capabilities Covered:
+- 🚀 **Outbound Webhook Delivery:** Reliable message dispatch, HMAC payload signing, retries, idempotency, and SLA enforcement.
+- 🎯 **Event Destinations & Gateways:** Fanout routing to external targets including Amazon EventBridge, AWS SQS, Apache Kafka, GCP Pub/Sub, and RabbitMQ.
+- 🧪 **Testing & Debugging Suites:** Ephemeral and local endpoints for payload inspection, request capturing, replay, and validation.
+- 🔄 **Event-Driven iPaaS & Workflows:** Visual automation pipelines and code-based event orchestration connecting thousands of apps.
 
+---
 
+## 📑 Table of Contents
 
-**Examples** include Svix, Hookdeck, Zapier, Make, Webhook.site, Segment, Pipedream, Amazon EventBridge, Tray.io, and HubSpot Webhooks (the category leaders in commercial space).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, webhook delivery, and open event infrastructure. **Critical note**: The open-source webhook space has matured significantly—**Svix**, **Hookdeck Outpost**, and **Convoy** are production-grade options with enterprise features. However, no open-source project matches Zapier's 7,000+ app ecosystem or Segment's customer data platform breadth; those are integration platforms, not webhook infrastructure.
+The global market for **Integration Platform as a Service (iPaaS)** and **Event-Driven Architecture (EDA)** middleware is estimated between **$15B and $20B+**, expanding aggressively as real-time event streaming and automation become baseline requirements for cloud computing. 
 
+The industry demonstrates a bifurcated structure: the enterprise event bus, cloud broker, and iPaaS tier is **moderately concentrated**—dominated by hyperscalers (AWS, Azure, Google Cloud) and established enterprise automation leaders—whereas the specialized **outbound webhook delivery infrastructure** and developer gateway space remains **highly fragmented**, fostering rapid open-source innovation, open-core startups, and niche developer toolkits.
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The broader Integration Platform as a Service (iPaaS) and Event-Driven Architecture (EDA) market is estimated between **$15B and $20B+**, growing rapidly as real-time event streaming and automation become enterprise standards. The overall space is **moderately concentrated** at the enterprise middleware and event bus tier—anchored by cloud hyperscalers and major automation leaders—while the specialized outbound webhook delivery and developer gateway niche remains **fragmented**, with nimble startups and open-source projects innovating rapidly.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
 | Company / Product | Category & Best For | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Scale (Valuation / Revenue) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,104 +73,129 @@ The broader Integration Platform as a Service (iPaaS) and Event-Driven Architect
 | **[Hookdeck](https://hookdeck.com/)** | **Event gateway & webhook infrastructure** (managed platform & Outpost). Best for reliable inbound/outbound event delivery. | **$39 / month** for Team Gateway Plan; Outpost outbound plans start at **$10 per million events** | **Free Forever Plan**: 10,000 events/requests per month, 3-day log retention, 5 events/second throughput | **Valuation: ~$15M–$25M est.** (Seed; Total funding: ~$3M; ARR: ~$1M est.) |
 | **[Webhook.site](https://webhook.site/)** | **Webhook testing & debugging tool** with unique inspection endpoints. Best for inspecting payloads and testing integrations. | **$9 / month** ($90/year) for Basic Plan ($19/mo for Pro) | **Free Forever Plan**: 50 requests per instant URL, 50 requests history, URLs expire after 7 days | **Revenue: ~$400k ARR** (Bootstrapped / Micro-SaaS; traffic >700M reqs/day) |
 
-## Open-Source GitHub Projects
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+Sorted by GitHub Stars (descending):
 
-- **[Svix](https://github.com/svix/svix-webhooks)**
+1. ### 📦 [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) [![Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
+   - **Description:** Open-source developer-first background jobs, durable workflows, and event-driven automation framework.
+   - **Key Features:** Serverless background tasks, long-running processes, real-time webhook listeners with automatic retries and checkpointing.
+   - **Tech Stack:** TypeScript, Node.js, PostgreSQL.
+   - **Best For:** Developers wanting code-native background jobs triggered by webhooks without timeouts.
 
-  **Open source and enterprise-ready webhooks service** (Rust, ~2,953 stars) — **the most mature open-source webhook delivery platform**, used as the core of the commercial Svix service . **Features**: Webhook subscription management, signing with HMAC, retry logic, delivery attempt history, and a user portal for managing endpoints. The commercial Svix adds enterprise features (observability, SLA support) on top of this open-source core. **Tech stack**: Rust. **Deploy**: Self-hosted (Docker) or Svix Cloud. **Trade-off**: The open-source version lacks some commercial features (advanced observability, dedicated support); for full-featured managed service, use Svix Cloud. **Best for**: developers wanting production-grade webhook infrastructure they can self-host, with a clear upgrade path to managed service if needed.
+2. ### 📦 [webhook](https://github.com/adnanh/webhook) [![Stars](https://img.shields.io/github/stars/adnanh/webhook?style=social&color=white)](https://github.com/adnanh/webhook/stargazers)
+   - **Description:** Lightweight configurable incoming webhook server written in Go to execute shell commands and automation pipelines upon receiving HTTP payloads.
+   - **Key Features:** Hook rule parsing, parameter passing to shell commands, secret token validation, lightweight standalone binary.
+   - **Tech Stack:** Go.
+   - **Best For:** Self-hosted CI/CD hooks, local server triggers, and infrastructure automation without heavy daemon overhead.
 
+3. ### 📦 [Inngest](https://github.com/inngest/inngest) [![Stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers)
+   - **Description:** Event-driven durable execution engine and serverless workflow platform for building reliable background step-functions.
+   - **Key Features:** Webhook event ingestion, fanout, deduplication, step-level idempotency, zero-infrastructure concurrency control.
+   - **Tech Stack:** Go, TypeScript.
+   - **Best For:** Teams building complex event-driven pipelines, webhook ingestion handlers, and multi-step background tasks.
 
+4. ### 📦 [CloudEvents Specification](https://github.com/cloudevents/spec) [![Stars](https://img.shields.io/github/stars/cloudevents/spec?style=social&color=white)](https://github.com/cloudevents/spec/stargazers)
+   - **Description:** Industry standard specification hosted by the CNCF for describing event data in a common, interoperable protocol format.
+   - **Key Features:** Standard metadata headers, JSON / Avro / Protobuf mappings, HTTP / Kafka / Webhook protocol bindings.
+   - **Tech Stack:** Specification / Multi-language SDKs.
+   - **Best For:** Architectures requiring interoperable webhook payload definitions across diverse cloud and enterprise environments.
 
-- **[Hookdeck Outpost](https://github.com/hookdeck/outpost)**
+5. ### 📦 [Svix](https://github.com/svix/svix-webhooks) [![Stars](https://img.shields.io/github/stars/svix/svix-webhooks?style=social&color=white)](https://github.com/svix/svix-webhooks/stargazers)
+   - **Description:** Production-grade, enterprise-ready webhooks-as-a-service server powering commercial webhook infrastructure.
+   - **Key Features:** Webhook subscription management, HMAC signing, exponential retries, event attempt logs, embeddable developer portal.
+   - **Tech Stack:** Rust, PostgreSQL, Redis.
+   - **Best For:** SaaS applications providing enterprise webhook delivery with customer self-service portals and SLA-grade reliability.
 
-  **Open Source Outbound Webhooks and Event Destinations Infrastructure** (Go, ~968 stars, Apache-2.0) — **the most feature-complete open-source event destination platform** found in this research . **Features**: **Event topics and topic-based subscriptions**; publish events via API or queue; **at-least-once delivery guarantee**; **event fanout** to multiple endpoints; automatic and manual retries; **multi-tenant support**; **user portal** for customers to view metrics and manage destinations; **delivery failure alerts**; OpenTelemetry integration; **destination types**: Webhooks, Hookdeck Event Gateway, Amazon EventBridge, AWS SQS, AWS S3, GCP Pub/Sub, RabbitMQ, and Kafka; webhook best practices (idempotency headers, signatures, rotation); **SDKs and MCP server** (Go, Python, TypeScript) . **Tech stack**: Go, Redis, PostgreSQL. **Deploy**: Docker Compose, Railway one-click, or self-hosted . **Trade-off**: **Event destination platform, not a general automation tool**—it routes events you publish to destinations you configure; it does not connect to third-party SaaS apps or provide no-code builders. **Best for**: teams building a platform that needs to offer outbound webhooks/event destinations to their customers—with multi-tenancy, user portals, and broad destination support.
+6. ### 📦 [Convoy](https://github.com/frain-dev/convoy) [![Stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social&color=white)](https://github.com/frain-dev/convoy/stargazers)
+   - **Description:** High-performance cloud-native webhook gateway for bi-directional event ingress and egress.
+   - **Key Features:** Event delivery retries, circuit breaking, rate limiting, request verification, end-to-end telemetry.
+   - **Tech Stack:** Go, Redis, PostgreSQL.
+   - **Best For:** Platform engineering teams requiring a Kubernetes-native webhook gateway capable of ingesting and delivering millions of events.
 
+7. ### 📦 [Argo Events](https://github.com/argoproj/argo-events) [![Stars](https://img.shields.io/github/stars/argoproj/argo-events?style=social&color=white)](https://github.com/argoproj/argo-events/stargazers)
+   - **Description:** Event-driven workflow automation framework for Kubernetes, natively supporting webhooks as event sources.
+   - **Key Features:** 20+ event sources (including generic webhooks, Kafka, AWS SNS/SQS, GitHub, Slack), event filtering, triggering Kubernetes objects & Argo Workflows.
+   - **Tech Stack:** Go, Kubernetes CRDs.
+   - **Best For:** Kubernetes-native organizations running cloud pipelines triggered by inbound webhooks and events.
 
+8. ### 📦 [Knative Eventing](https://github.com/knative/eventing) [![Stars](https://img.shields.io/github/stars/knative/eventing?style=social&color=white)](https://github.com/knative/eventing/stargazers)
+   - **Description:** Cloud-native event routing and management system for building loosely coupled, event-driven serverless architectures on Kubernetes.
+   - **Key Features:** CloudEvents-compliant routing, Channels, Brokers, Triggers, declarative subscription model for webhooks and stream consumers.
+   - **Tech Stack:** Go, Kubernetes.
+   - **Best For:** Large-scale serverless systems routing events across heterogeneous microservices and webhook sinks.
 
-- **[Convoy](https://github.com/frain-dev/convoy)**
+9. ### 📦 [Hookdeck Outpost](https://github.com/hookdeck/outpost) [![Stars](https://img.shields.io/github/stars/hookdeck/outpost?style=social&color=white)](https://github.com/hookdeck/outpost/stargazers)
+   - **Description:** Open-source outbound webhooks and event destination infrastructure designed to deliver events to customer endpoints.
+   - **Key Features:** Multi-tenant support, customer-facing portals, topic subscriptions, delivery failure alerts, broad destination support (Webhooks, SQS, S3, Kafka, RabbitMQ, EventBridge).
+   - **Tech Stack:** Go, PostgreSQL, Redis.
+   - **Best For:** B2B platforms offering outbound webhook integrations and event fanout to enterprise customers.
 
-  **Cloud Native Webhooks Gateway** (Go, ~2,698 stars) — **the most enterprise-oriented open-source webhook gateway** . **Features**: Webhook ingestion and delivery with retries, signing, and observability; designed for cloud-native deployments; supports multiple event sources and destinations. **Tech stack**: Go. **Deploy**: Self-hosted (Kubernetes-native). **Trade-off**: **Gateway-focused**—it receives and delivers webhooks but does not provide the user portal and multi-tenant customer-facing experience of Outpost. **Best for**: platform teams wanting a Kubernetes-native webhook gateway with enterprise reliability features.
+10. ### 📦 [webhook-tester](https://github.com/tarampampam/webhook-tester) [![Stars](https://img.shields.io/github/stars/tarampampam/webhook-tester?style=social&color=white)](https://github.com/tarampampam/webhook-tester/stargazers)
+    - **Description:** Self-hosted open-source alternative to Webhook.site for testing and inspecting incoming HTTP webhooks in real time.
+    - **Key Features:** Unique URL generation, customizable response codes/headers, built-in React web UI, WebSocket live streaming, ngrok tunnel integration.
+    - **Tech Stack:** Go, React.
+    - **Best For:** Developers and QA teams wanting an on-premise, secure webhook payload inspector for local testing and debugging.
 
+11. ### 📦 [WebhookX](https://github.com/webhookx-io/webhookx) [![Stars](https://img.shields.io/github/stars/webhookx-io/webhookx)](https://github.com/webhookx-io/webhookx/stargazers)
+    - **Description:** Fast, modular open-source webhook gateway with extensible WASM plugin architecture.
+    - **Key Features:** Declarative GitOps configuration, RESTful Admin API, fanout distribution, rate limiting, WebAssembly / JS transformation plugins.
+    - **Tech Stack:** Go, Redis, PostgreSQL.
+    - **Best For:** Teams wanting an extensible gateway with custom WASM transformations and declarative management.
 
-
-- **[webhook-tester](https://github.com/tarampampam/webhook-tester)**
-
-  **Free and self-hosted alternative to webhook.site** (Go, ~v2.2.4) — **the best open-source webhook debugging tool** . **Features**: Unique randomly generated URLs for capturing requests; **customizable response code, headers, and body**; response delay; **built-in UI** (ReactJS compiled into binary); **WebSocket support** for real-time notifications; **storage drivers**: memory, Redis, or filesystem; **tunneling via ngrok** to capture external webhooks; auto-create sessions; multi-architecture Docker image; runs as unprivileged user . **Tech stack**: Go, ReactJS. **Deploy**: Binary download, Docker, or `curl` install script . **Trade-off**: **Testing tool, not delivery infrastructure**—it captures and displays webhooks for debugging; it does not deliver events to your customers or manage subscriptions. **Best for**: developers wanting a self-hosted webhook inspection tool without sending data to a third-party service like webhook.site.
-
-
-
-- **[WebhookX](https://github.com/webhookx-io/webhookx)**
-
-  **Open-source webhook gateway for receiving, validating, transforming, and delivering events at scale** (Go, ~v1.2.0) — **the most feature-rich open-source webhook gateway with plugin support** . **Features**: **Admin API** (RESTful); reliable delivery with automatic retries; **fan out** to multiple endpoints by event type; **rate limiting**; **declarative configuration** (GitOps-oriented); multi-tenancy (license required); **plugins**: signature (HMAC SHA-256), **wasm** (AssemblyScript/Rust/TinyGo transforms), function (JavaScript for inbound logic), event validation (JSON Schema), and security plugins (HMAC auth, basic auth, key auth—license required); **observability** (OpenTelemetry); secret management (license required) . **Tech stack**: Go, PostgreSQL, Redis. **Deploy**: Docker Compose, Homebrew, or binary . **Trade-off**: **Some features require a license** (multi-tenancy, secret management, advanced security plugins)—check the license program. **Active development with breaking changes possible before v1.0.0** . **Best for**: teams wanting a plugin-extensible webhook gateway with declarative configuration and GitOps workflows.
-
-
-
-- **[Relay](https://github.com/rajputomsingh/Relay)**
-
-  **Reliable webhook delivery infrastructure** (Go, ~recent) — **a focused, developer-friendly delivery engine with clear semantics** . **Features**: **Idempotency-Key enforcement** for duplicate submission prevention; **at-least-once delivery** with explicit acknowledgment that exactly-once is not guaranteed; **retry classification** (5xx, network errors, timeouts retried; 4xx terminal except 408/429); **delivery attempt history**; **event replay** for terminal failures; **lease fencing** for worker crash recovery; **Node.js/TypeScript SDK**; MongoDB persistence . **Tech stack**: Go, MongoDB. **Deploy**: Docker Compose or manual (`go run ./cmd/relay`) . **Trade-off**: **Delivery engine only**—no user portal, no multi-tenancy, no destination types beyond webhooks. Newer project with limited community validation. **Best for**: developers wanting a straightforward, well-documented webhook delivery engine with clear at-least-once semantics and idempotency.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **webhook** (ronixa) — Secure multi-tenant webhook system with in-memory, Redis, or Kafka backends and exponential backoff (TypeScript, ~1 star). **Note**: Early-stage; limited validation . **Best for**: developers wanting a lightweight multi-tenant webhook foundation.
-
-- **HookStack** — Store webhooks until you are ready to retrieve them (HTML, ~6 stars). **Note**: Narrow "webhook inbox" tool, not delivery infrastructure . **Best for**: developers wanting to buffer incoming webhooks for later processing.
-
-
-
-**Frameworks for building custom systems**: Combine **Hookdeck Outpost** as the event destination platform with **Svix** for webhook subscription management, **webhook-tester** for debugging during development, and **WebhookX** or **Relay** as delivery engines—creating a webhook infrastructure stack. **None of these provide Zapier's app ecosystem or Segment's customer data platform**; those are integration platforms, not webhook infrastructure.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Webhook platforms handling event data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate signing, authentication, and payload validation. Webhook endpoints are a common attack surface—validate signatures and sanitize payloads.
-
-- **The "webhook delivery infrastructure" vs. "event destination platform" vs. "testing tool" vs. "integration platform" distinction is critical.** **Svix, Convoy, WebhookX, and Relay** are **webhook delivery infrastructure**—they deliver events reliably to endpoints. **Hookdeck Outpost** is an **event destination platform**—it adds multi-tenancy, user portals, and destination types beyond webhooks (SQS, Kafka, etc.) . **webhook-tester** is a **testing tool**—it captures and inspects webhooks, not delivers them . **Zapier, Make, Segment, and Pipedream** are **integration platforms**—they connect apps and route data, but are not webhook delivery infrastructure. **Choose based on whether you need to send webhooks to customers, receive and debug them, or connect third-party apps.**
-
-- **Svix is unique as open-core webhook infrastructure**—the core is open source and self-hostable, with a commercial cloud service for teams wanting managed reliability and support . **Hookdeck Outpost is the most complete open-source event destination platform** with multi-tenancy, user portals, and broad destination support (SQS, Kafka, EventBridge, etc.) . **Convoy** is the Kubernetes-native gateway choice.
-
-- **Zapier and Make are not webhook infrastructure.** They are integration platforms that can trigger on or act via webhooks, but they do not provide delivery guarantees, signing, retry logic, or subscription management for your own events . **Do not confuse an automation tool with webhook delivery infrastructure.**
-
-- **Webhook.site is a testing tool, not a delivery service.** Use it to debug what your application is sending, not to deliver webhooks to your customers. **webhook-tester** is the self-hosted alternative for teams wanting data sovereignty .
-
-- **Pricing opacity varies.** Svix, Hookdeck, Zapier, Make, Segment, Pipedream, and Tray.io publish tiered pricing. Webhook.site has a free tier. Amazon EventBridge is pay-per-event. HubSpot webhooks are included with CRM. **Validate with direct vendor conversations against your event volume and destination count.**
-
-- Self-hosted open-source solutions require proper infrastructure (PostgreSQL, Redis for most), signing secret management, and ongoing maintenance. **Event payloads may contain sensitive data**—ensure your deployment meets your organization's security standards before delivering production events.
-
-
+12. ### 📦 [Relay](https://github.com/rajputomsingh/Relay) [![Stars](https://img.shields.io/github/stars/rajputomsingh/Relay)](https://github.com/rajputomsingh/Relay/stargazers)
+    - **Description:** Developer-friendly webhook delivery engine focused on strict at-least-once semantics and crash recovery.
+    - **Key Features:** Idempotency-key enforcement, automatic retry classification (4xx vs 5xx), failure replay, lease fencing for crashed workers.
+    - **Tech Stack:** Go, MongoDB.
+    - **Best For:** Developers wanting a straightforward, lightweight delivery service with clear idempotency guarantees.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help keep this directory accurate, up-to-date, and valuable for the community.
 
-**Made for developers, platform teams, and organizations building transparent webhook and event integration solutions.**
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-webhook-tool`).
+3. 📝 **Add your project** in the appropriate section maintaining the existing format:
+   - Name and direct project link
+   - Badge with social star count (`https://img.shields.io/github/stars/owner/repo?style=social&color=white`) linking to its stargazers page
+   - Concise factual description, key features, tech stack, and primary use case
+4. 🧪 **Ensure links and formatting are valid**.
+5. 🚀 **Submit a Pull Request** with a brief summary of what you added!
 
-Let's make API Event Webhooks & Integration more open, data-driven, and event-reliable.
+---
+
+## 💖 Support
+
+If you find this repository helpful, consider supporting its maintenance and continued expansion:
+
+- 🌟 **Star the repository** to boost discoverability on GitHub!
+- 🍴 **Fork and share** with colleagues and developers in your network.
+- 💬 **Join the conversation** on [Discord](https://discord.gg/jc4xtF58Ve) to discuss webhook architecture and event-driven patterns.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing open-source curation and development, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Thank you for your support! 🚀
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Event-Webhooks-Integration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Event-Webhooks-Integration&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated directory** created for educational and informational purposes; inclusion does not constitute an endorsement.
+- **Architectural Clarification:**
+  - **Webhook Delivery Infrastructure** (*Svix, Convoy, WebhookX, Relay*) delivers outbound events with signing, retry scheduling, and telemetry.
+  - **Event Destination Platforms** (*Hookdeck Outpost*) manage outbound multi-tenant destinations across webhooks, cloud queues, and streaming brokers.
+  - **Testing & Debugging Tools** (*webhook-tester, Webhook.site*) capture and inspect payloads during development and CI/CD pipelines.
+  - **Integration & Workflow Platforms** (*Zapier, Make, Segment, Pipedream, Tray.io*) execute complex multi-app orchestration, data normalization, and ETL flows.
+- **Security & Compliance:** Webhook endpoints frequently process sensitive business data. Always enforce cryptographic signature verification (e.g., HMAC-SHA256), replay protection with timestamps, and TLS/HTTPS transport security before exposing endpoints to production traffic.
+
+---
+
+<div align="center">
+  <sub>Maintained by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the global open-source community.</sub>
+</div>
